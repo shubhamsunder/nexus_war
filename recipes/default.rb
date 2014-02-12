@@ -35,7 +35,6 @@ ruby_block "start_phantom_checking" do
   action :create
 end
 
-
 ruby_block "ruby code to notify orchestrator" do
 	block do
 		puts "==================================================================================================="
